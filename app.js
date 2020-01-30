@@ -36,3 +36,7 @@ function removetask(e){
       e.target.parentElement.parentElement.remove();
   }
 }
+
+function cleartask(){
+    tasklist.innerHTML='';
+}
