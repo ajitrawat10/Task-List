@@ -31,3 +31,8 @@ function addtask(e){
     taskinput.value=''
     e.preventDefault();
 }
+function removetask(e){
+  if (e.target.parentElement.classList.contains('delete-item')){
+      e.target.parentElement.parentElement.remove();
+  }
+}
