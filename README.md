@@ -1,2 +1,1 @@
-# Task-List
-It is a task list application .
+# Task-List Application
